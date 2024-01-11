@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/RomkaBV/state.git/static/css/main.df731936.css",
+    "main.js": "/RomkaBV/state.git/static/js/main.3bb484a6.js",
+    "index.html": "/RomkaBV/state.git/index.html",
+    "main.df731936.css.map": "/RomkaBV/state.git/static/css/main.df731936.css.map",
+    "main.3bb484a6.js.map": "/RomkaBV/state.git/static/js/main.3bb484a6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df731936.css",
+    "static/js/main.3bb484a6.js"
+  ]
+}
