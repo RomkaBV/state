@@ -2,7 +2,7 @@ import { Wrapper, Topic, MetaWrapper, Text, Button } from './QuizCard.styled';
 
 export const QuizCard = ({ quiz: { id, topic, level, time, questions } }) => {
   return (
-    <Wrapper level={level}>
+    <Wrapper $level={level}>
       <Topic>{topic}</Topic>
       <MetaWrapper>
         <Text>

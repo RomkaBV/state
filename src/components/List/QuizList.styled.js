@@ -1,11 +1,12 @@
 import styled from 'styled-components';
 
 export const List = styled.ul`
-  display: flex;
-  flex-wrap: wrap;
-  gap: ${props => props.theme.spacing(3)};
+  display: grid;
+  justify-items: center;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 `;
 
 export const ListItem = styled.li`
-  flex-basis: ${p => `calc((100% - ${p.theme.spacing(6)}) / 3)`};
+  width: 350px;
 `;
